@@ -1,8 +1,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-118-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# rustlings 🦀❤️
+# rustlings (solutions) 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
@@ -68,6 +70,7 @@ cargo install --force --path .
 ```
 
 If there are installation errors, ensure that your toolchain is up to date. For the latest, run:
+
 ```bash
 rustup update
 ```
@@ -107,17 +110,18 @@ rustlings run next
 In case you get stuck, you can run the following command to get a hint for your
 exercise:
 
-``` bash
+```bash
 rustlings hint myExercise1
 ```
 
 You can also get the hint for the next unsolved exercise with the following command:
 
-``` bash
+```bash
 rustlings hint next
 ```
 
 To check your progress, you can run the following command:
+
 ```bash
 rustlings list
 ```
@@ -135,14 +139,14 @@ Once you've completed Rustlings, put your new knowledge to good use! Continue pr
 If you want to remove Rustlings from your system, there's two steps. First, you'll need to remove the exercises folder that the install script created
 for you:
 
-``` bash
+```bash
 rm -rf rustlings # or your custom folder name, if you chose and or renamed it
 ```
 
 Second, since Rustlings got installed via `cargo install`, it's only reasonable to assume that you can also remove it using Cargo, and
 exactly that is the case. Run `cargo uninstall` to remove the `rustlings` binary:
 
-``` bash
+```bash
 cargo uninstall rustlings
 ```
 
